@@ -1,0 +1,93 @@
+
+#ad{
+    height: 20px;
+    width: 50px;
+    background-color: blue;
+
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, Orange, white,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrapper {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.gudu h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.gudi h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.gudi p {
+    margin: 5px 0;
+    color: #666;
+}
+
+
+#gudi input[type="text"] {
+    width: calc(100% - 60px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#gudi button {
+    padding: 10px 15px;
+    background-color: #d3deea;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#gudi button:hover {
+    background-color: #0056b3;
+}
+
+.gudi img {
+    margin: 10px 5px;
+}
+
+.forecast p {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #wrapper {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+#wrapper{
+    background-color: aquamarine;
+}
